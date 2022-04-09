@@ -1,0 +1,24 @@
+
+@media only screen and (max-width: 550px) {
+    #navbar {
+        display: flex; 
+    }
+  }
+
+
+body {
+    background-color: #EEEEEE;
+}
+
+#navbar {
+    display: flex; 
+    justify-content: space-between;
+    padding: 20px; 
+}
+
+#navbar li {
+    list-style-type: none; 
+    display: inline;
+
+}
+ 
