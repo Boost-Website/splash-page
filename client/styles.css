@@ -1,7 +1,9 @@
 
 :root {
-    --boost-color: #00c2cb; 
-    --background: #313552; 
+    --boost-color: #1DBEC8; 
+    --background: #313552;
+    
+
 }
 a:hover {
     color: #FFC900; 
@@ -24,7 +26,8 @@ body {
 
 #navbar {
     display: flex; 
-    justify-content: space-between;
+    justify-content: space-evenly;
+    align-items: center;
     padding: 20px; 
 }
 
@@ -75,15 +78,28 @@ left: 1px;
     padding: 10px;  
 
 }
+#header {
+    width: 25%;
+    height: 40%; 
+    margin-bottom: 12px;
+}
+
+#description-header {
+    font-family: 'Barlow', sans-serif;
+}
 
 @media only screen and (max-width: 550px) {
     
      ul {
         display: flex; 
         flex-direction: column; 
+        align-items: flex-start;
     }
     li {
         margin-bottom: 8px;
+    }
+    #header {
+        min-width: 150px; 
     }
 
 }
